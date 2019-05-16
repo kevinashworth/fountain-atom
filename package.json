@@ -1,7 +1,7 @@
 {
   "name": "fountain",
   "main": "./lib/fountain",
-  "version": "0.7.3",
+  "version": "0.8.1",
   "description": "Grammar and tools for the Fountain screenwriting syntax",
   "deserializers": {
     "FountainPreviewView": "deserializeFountainPreviewView"
@@ -12,14 +12,14 @@
   },
   "license": "GPLv3",
   "engines": {
-    "atom": ">=0.174.0 <2.0.0"
+    "atom": ">=1.17.0 <2.0.0"
   },
   "dependencies": {
     "atom-package-deps": "^4.6.0",
     "atom-space-pen-views": "^2.0.0",
     "underscore-plus": "^1.0.0",
     "xregexp": "^3.1.1",
-    "afterwriting": "^1.10.0",
+    "afterwriting": "^1.11.0",
     "sortablejs": "^1.6.1"
   },
   "package-deps": [
